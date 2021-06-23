@@ -1,0 +1,25 @@
+<form>
+      <div class="mb-3 p-2">
+        <label for="agencia" class="form-label">Nombre de Agencia</label>
+        <input type="text" id="agencia" class="form-control" [value]="agency.agencia">
+      </div>
+      <div class="mb-3 p-2">
+        <label for="disabledSelect" class="form-label">Direccion</label>
+        <input type="text" id="disabledTextInput" class="form-control" [value]="agency.direccion">
+      </div>
+      <div class="mb-3 p-2">
+        <label for="disabledSelect" class="form-label">Distrito</label>
+        <input type="text" id="disabledTextInput" class="form-control" [value]="agency.distrito">
+      </div>
+      <div class="mb-3 p-2">
+        <label for="disabledSelect" class="form-label">Latitud</label>
+        <input type="number" id="disabledTextInput" class="form-control" [value]="agency.lat">
+      </div>
+      <div class="mb-3 p-2">
+        <label for="disabledSelect" class="form-label">Longitud</label>
+        <input type="number" id="disabledTextInput" class="form-control" [value]="agency.lon">
+      </div>
+      <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-primary">Actualizar</button>
+      </div>
+  </form>
